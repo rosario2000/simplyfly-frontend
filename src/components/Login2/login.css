@@ -1,0 +1,26 @@
+.auth-component {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+.auth-component h1 {
+  font-weight: 300;
+  font-size: 50px;
+  margin: 20px auto;
+}
+
+.auth-component label {
+  display: block;
+}
+
+.auth-component input {
+  padding: 10px;
+  margin: 10px 10px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+}
+
+.links {
+  text-decoration: none;
+  color: blueviolet;
+}

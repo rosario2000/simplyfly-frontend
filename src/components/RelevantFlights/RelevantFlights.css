@@ -1,0 +1,8 @@
+.no-flights {
+  text-align: center;
+  font-size: 30px;
+}
+.no-flights p {
+  padding: 20px;
+  margin: 50px auto;
+}

@@ -1,0 +1,10 @@
+.notification {
+  margin: 20px 10px;
+  border: 2px dashed rgb(248, 89, 89) (248, 89, 89);
+  text-align: center;
+}
+
+.notification h1 {
+  font-size: 25px;
+  color: rgb(92, 14, 14);
+}

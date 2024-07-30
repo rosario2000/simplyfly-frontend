@@ -1,0 +1,21 @@
+.dropdown-input {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.suggestions-list {
+  position: absolute;
+  left: 33%;
+  width: 33%;
+  overflow-y: inherit;
+  background-color: white;
+  z-index: 1000;
+  border-radius: 20px;
+}
+
+.suggestion {
+  margin: 2px;
+  padding: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+}

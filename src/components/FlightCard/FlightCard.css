@@ -1,0 +1,57 @@
+/* FlightCard.css */
+.flight-card {
+  background-color: white;
+  border-radius: 15px;
+  padding: 20px;
+  margin: 10px 0;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.flight-card h3 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #555;
+  margin: 0;
+}
+
+.flight-card img {
+  width: 60%;
+  height: 70px;
+}
+
+.dashed-line {
+  display: inline;
+  width: 60%;
+}
+
+.flight-info {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.flight-route,
+.flight-times,
+.flight-date,
+.flight-duration {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 0;
+}
+
+.flight-route span,
+.flight-times span,
+.flight-date,
+.flight-duration {
+  margin: auto;
+  font-size: 14px;
+}
+
+.flight-duration {
+  font-weight: 600;
+}
+
+.flight-card button {
+  margin-top: 20px;
+  width: 30%;
+}

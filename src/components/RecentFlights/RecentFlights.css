@@ -1,0 +1,17 @@
+/* RecentFlights.css */
+.recent-flights {
+  margin-top: 20px;
+}
+
+.recent-flights h2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+  color: #555;
+}
+
+.recent-flights span {
+  color: #ff9a9e;
+  cursor: pointer;
+}

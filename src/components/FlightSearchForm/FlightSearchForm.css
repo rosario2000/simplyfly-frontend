@@ -1,0 +1,106 @@
+/* FlightSearchForm.css */
+.flight-search-form {
+  text-align: center;
+  background-color: white;
+  border-radius: 30px;
+  padding: 20px;
+  margin-top: -20px;
+  box-shadow: 3px 8px 10px rgba(0, 0, 0, 0.2);
+  font-family: "Montserrat", sans-serif;
+}
+
+.flight-search-form h2 {
+  margin-bottom: 0px;
+  font-size: 40px;
+  color: #555;
+  font-weight: 300;
+}
+
+.form-group {
+  text-align: center;
+  align-items: center;
+}
+
+.form-group label {
+  font-size: 14px;
+  padding: 8px;
+  color: #777;
+}
+
+.form-group input {
+  width: 40%;
+  text-align: center;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+}
+
+.search-btn {
+  font-size: 15px;
+  display: block;
+  width: 40%;
+  margin: auto;
+  padding: 10px;
+  background-color: #966af3;
+  border: none;
+  color: white;
+  border-radius: 20px;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.search-btn:hover {
+  background-color: #4008b9;
+}
+
+.col {
+  text-align: center;
+}
+
+.date-input {
+  padding: 10px 0;
+}
+
+@media screen and (max-width: 800px) {
+  .form-group label {
+    font-size: 17px;
+    padding: 7px;
+  }
+  .search-btn {
+    width: 40%;
+  }
+  .flight-search-form h1 {
+    margin-bottom: 15px;
+    font-size: 23px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .form-group label {
+    font-size: 15px;
+    padding: 6px;
+  }
+  .search-btn {
+    width: 45%;
+  }
+  .flight-search-form h1 {
+    margin-bottom: 15px;
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .form-group label {
+    font-size: 13px;
+    padding: 5px;
+  }
+  .search-btn {
+    width: 50%;
+  }
+  .flight-search-form h1 {
+    margin-bottom: 20px;
+    font-size: 18px;
+  }
+}
